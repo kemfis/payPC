@@ -556,8 +556,11 @@
   text-align: center;
 }
 @media screen and (max-width: 1208px) {
+  * .wrapper {
+    overflow: hidden;
+  }
   * .wrapper .container {
-    width: 3rem;
+    width: 33.5rem;
   }
   * .wrapper .container header {
     width: 33.5rem;
@@ -865,6 +868,10 @@
   }
 }
 @media screen and (max-width: 600px) {
+  * .wrapper {
+    width: 23.438rem;
+    overflow: hidden;
+  }
   * .wrapper .container {
     width: 23.438rem;
   }

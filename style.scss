@@ -507,8 +507,9 @@
     }
     @media screen and (max-width: 1208px){
         .wrapper{
+            overflow: hidden;
             .container{
-                width: 3rem;
+                width: 33.5rem;
                 header{
                     width: 33.5rem;
                     .header__container{
@@ -784,6 +785,8 @@
     }
     @media screen and (max-width: 600px){
         .wrapper{ 
+            width: 23.438rem;
+            overflow: hidden;
             .container{
                 width: 23.438rem;
                 header{
